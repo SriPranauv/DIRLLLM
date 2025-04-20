@@ -6,12 +6,10 @@ DIRLLLM, or Database Information Retrieval using Lightweight LLM, is a project t
 Contents:
 
 
-teacher_model.ipynb: Fine-tuning of the T5-base model with sql datasets.
+Teacher_model.ipynb: Fine-tuning of the T5-base model with SQL datasets. (An identical approach is used for the initial fine-tuning of the Student model.)
 
-knowledge_distillation_llm.ipnyb: Distillation of knowledge from teacher to student.
+Knowledge_distillation_llm.ipynb: Distillation of knowledge from teacher to student.
 
-Presentation.ipynb: A notebook for running and testing the distilled model.
+Confidence_score.ipynb: Additional notebook with added confidence checking to improve query executability 
 
-confidence_score.ipynb: Additional notebook with added confidence checking to improve query executability 
-
-Dirllm_web_app.ipynb: Notebook used to host the corresponding Anvil web app.
+Web_app_backend.ipynb: Notebook used to host the corresponding Anvil web app and present/test the model.
